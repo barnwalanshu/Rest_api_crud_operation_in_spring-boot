@@ -10,7 +10,6 @@ import org.app.uport.beans.User_Details;
 import org.app.uport.beans.User_Login;
 import org.app.uport.repository.User_Details_Repos;
 import org.app.uport.service.IService_Provider;
-import org.app.uport.service.Service_Provider;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;

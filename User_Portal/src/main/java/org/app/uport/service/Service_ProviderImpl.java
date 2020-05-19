@@ -15,9 +15,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class Service_Provider implements IService_Provider {
+public class Service_ProviderImpl implements IService_Provider {
 
-	private static Logger logger  = LogManager.getLogger(Service_Provider.class);
+	private static Logger logger  = LogManager.getLogger(Service_ProviderImpl.class);
 
 	@Autowired
 	User_Details_Repos user_Details_Repository ;

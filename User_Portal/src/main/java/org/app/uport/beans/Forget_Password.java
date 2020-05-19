@@ -40,6 +40,7 @@ public class Forget_Password {
 	public void setConfirmpassword(String confirmpassword) {
 		this.confirmpassword = confirmpassword;
 	}
+
 	@Override
 	public String toString() {
 		return "Forget_Password [id=" + id + ", email_id=" + email_id + ", date_of_birth=" + date_of_birth
